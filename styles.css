@@ -1,0 +1,53 @@
+
+/* Neon Infinity Tunnel - Page Styling */
+
+body {
+  background-color: #050510;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+h1 {
+  color: #ff1493;
+  text-shadow: 0 0 15px #ff1493;
+  letter-spacing: 3px;
+}
+
+#container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+#displayCanvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  border: 2px solid #ff1493;
+  box-shadow: 0 0 25px #ff1493;
+}
+
+.controls {
+  margin-top: 25px;
+}
+
+button {
+  background-color: #111122;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #ff1493;
+  color: white;
+  border-color: #ff1493;
+  box-shadow: 0 0 15px #ff1493;
+}
